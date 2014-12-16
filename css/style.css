@@ -89,7 +89,7 @@ div.final{
 	background-color: #EEE;
 }
 .cuerpo{
-	min-height: 200px;
+	min-height: 300px;
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
 }
@@ -118,5 +118,6 @@ table td{
 	background-color: #FAFAFA;
 	width: 100%;
 	border-bottom: 1px solid #3B91EE;
-	margin: auto;
+	left: 50%;
+	margin-left: -480px;
 }
