@@ -37,6 +37,11 @@ form input, form label{
 	background-color:;
 	border-bottom: 2px solid #3b94ad;
 }
+nav{
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+}
 nav ul li{
 	display: inline-block;
 }
@@ -88,4 +93,12 @@ table{
 table td{
 	border: solid 1px #444;
 	padding: 1em;
+}
+.sticky{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #DDD;
+	width: 100%;
+	border-bottom: 1px solid #3b94ad;
 }
