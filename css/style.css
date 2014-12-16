@@ -1,0 +1,91 @@
+@import url(http://fonts.googleapis.com/css?family=Didact+Gothic);
+*{
+
+	outline: 0px solid gray;
+}
+body{
+	background-color: #DDD;
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 19px;
+	}
+.fullcabecera{
+	width: 100%;
+	min-height: 50px;
+	background: rgba(147,206,222,1);
+background: -moz-linear-gradient(top, rgba(147,206,222,1) 0%, rgba(147,206,222,1) 1%, rgba(76,168,191,1) 66%, rgba(59,148,173,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(147,206,222,1)), color-stop(1%, rgba(147,206,222,1)), color-stop(66%, rgba(76,168,191,1)), color-stop(100%, rgba(59,148,173,1)));
+background: -webkit-linear-gradient(top, rgba(147,206,222,1) 0%, rgba(147,206,222,1) 1%, rgba(76,168,191,1) 66%, rgba(59,148,173,1) 100%);
+background: -o-linear-gradient(top, rgba(147,206,222,1) 0%, rgba(147,206,222,1) 1%, rgba(76,168,191,1) 66%, rgba(59,148,173,1) 100%);
+background: -ms-linear-gradient(top, rgba(147,206,222,1) 0%, rgba(147,206,222,1) 1%, rgba(76,168,191,1) 66%, rgba(59,148,173,1) 100%);
+background: linear-gradient(to bottom, rgba(147,206,222,1) 0%, rgba(147,206,222,1) 1%, rgba(76,168,191,1) 66%, rgba(59,148,173,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#3b94ad', GradientType=0 );
+}
+header{
+	width: 960px;
+	margin: 0 auto;
+}
+/*Formularios*/
+form.ingreso{
+	text-align: right;
+}
+form input, form label{
+	display: inline-block;
+	padding:0.2em; 
+}
+/*Barra de Navegacion*/
+.nav{
+	background-color:;
+	border-bottom: 2px solid #3b94ad;
+}
+nav ul li{
+	display: inline-block;
+}
+nav a{
+	padding: 0.8em;
+	display: block;
+	text-decoration: none;
+	color: #3b94ad;
+	text-transform: uppercase;
+	font-size: 0.8em;
+}
+/*Formato de Contenidos*/
+h1{
+	padding:0.8em;
+	font-size: 2em;
+	text-shadow:0px 0px 7px #444;
+	color: #FFF;
+}
+p{
+	padding: 1em;
+	font-size: 0.8em;
+}
+h2,h3,h4{
+	padding:0.5em;
+	background: #eee;
+	text-transform: lowercase;
+	font-size: 0.9em;
+}
+/*Formato de Estructuras divs*/
+div.medio{
+	background-color: #DDD;
+}
+div.final{
+	background-color: #EEE;
+}
+div.cuerpo{
+	min-height: 200px;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	outline: dashed 1px #333;
+}
+.footer{
+	min-height: 200px;
+	background-color: #DDD;
+}
+table{
+	border: solid 1px #222;
+}
+table td{
+	border: solid 1px #444;
+	padding: 1em;
+}
