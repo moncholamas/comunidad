@@ -3,18 +3,22 @@
 	outline: 0px solid gray;
 }
 body{
-	background-color: #EEE;
+	background-color: #FAFAFA;
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 18px;
 	}
 .fullcabecera{
 	width: 100%;
 	min-height: 50px;
-	background: #3B91EE;	
+	background: #FFF;
+	border-bottom: 1px solid #DDD;	
 }
 header{
 	width: 960px;
 	margin: 0 auto;
+}
+.principal{
+	position: relative;
 }
 /*Formularios*/
 form.ingreso{
@@ -26,7 +30,9 @@ form input, form label{
 /*Barra de Navegacion*/
 .nav{
 	background-color:;
-	border-bottom: 2px solid #3b94ad;
+	border-bottom: 2px solid #3B91EE;
+	margin: 0 auto;
+	width: 960px;
 }
 nav{
 	width: 960px;
@@ -40,7 +46,7 @@ nav a{
 	padding: 0.8em;
 	display: block;
 	text-decoration: none;
-	color: #3b94ad;
+	color: #3B91EE;
 	text-transform: uppercase;
 	font-size: 0.8em;
 	position: relative;
@@ -51,7 +57,7 @@ nav a.actual:after{
 	height: 0;
 	border-left: 10px solid transparent;
 	border-right: 10px solid transparent;
-	border-bottom: 7px solid #3b94ad;
+	border-bottom: 7px solid #3B91EE;
 	position: absolute;
 	bottom: 0;
 	left: 50%;
@@ -61,8 +67,8 @@ nav a.actual:after{
 h1{
 	padding:0.8em;
 	font-size: 1.5em;
-	text-shadow:0px 0px 7px #444;
-	color: #FFF;
+	text-shadow:0px 0px 4px #AAA;
+	color: #666;
 	letter-spacing: 0.2em;
 }
 p{
@@ -88,7 +94,11 @@ div.final{
 	margin-bottom: 0.5em;
 }
 .voluntad{
-	background-color: #F4F13E;
+	background-color: #;
+	box-shadow: 0px 0px 5px #99;
+	min-height: 500px;
+	border-left: 1px solid #DDD;
+	margin-left: -1px;
 }
 .footer{
 	min-height: 200px;
@@ -105,7 +115,8 @@ table td{
 	position: fixed;
 	top: 0;
 	left: 0;
-	background-color: rgba(240,240,240,0.7);
+	background-color: #FAFAFA;
 	width: 100%;
-	border-bottom: 1px solid #3b94ad;
+	border-bottom: 1px solid #3B91EE;
+	margin: auto;
 }
