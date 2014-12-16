@@ -1,24 +1,17 @@
-@import url(http://fonts.googleapis.com/css?family=Didact+Gothic);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
 *{
 
 	outline: 0px solid gray;
 }
 body{
-	background-color: #DDD;
-	font-family: 'Didact Gothic', sans-serif;
-	font-size: 19px;
+	background-color: #EEE;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 18px;
 	}
 .fullcabecera{
 	width: 100%;
 	min-height: 50px;
-	background: rgba(147,206,222,1);
-background: -moz-linear-gradient(top, rgba(147,206,222,1) 0%, rgba(147,206,222,1) 1%, rgba(76,168,191,1) 66%, rgba(59,148,173,1) 100%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(147,206,222,1)), color-stop(1%, rgba(147,206,222,1)), color-stop(66%, rgba(76,168,191,1)), color-stop(100%, rgba(59,148,173,1)));
-background: -webkit-linear-gradient(top, rgba(147,206,222,1) 0%, rgba(147,206,222,1) 1%, rgba(76,168,191,1) 66%, rgba(59,148,173,1) 100%);
-background: -o-linear-gradient(top, rgba(147,206,222,1) 0%, rgba(147,206,222,1) 1%, rgba(76,168,191,1) 66%, rgba(59,148,173,1) 100%);
-background: -ms-linear-gradient(top, rgba(147,206,222,1) 0%, rgba(147,206,222,1) 1%, rgba(76,168,191,1) 66%, rgba(59,148,173,1) 100%);
-background: linear-gradient(to bottom, rgba(147,206,222,1) 0%, rgba(147,206,222,1) 1%, rgba(76,168,191,1) 66%, rgba(59,148,173,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#3b94ad', GradientType=0 );
+	background: #3B91EE;	
 }
 header{
 	width: 960px;
@@ -29,8 +22,7 @@ form.ingreso{
 	text-align: right;
 }
 form input, form label{
-	display: inline-block;
-	padding:0.2em; 
+	display: inline-block; 
 }
 /*Barra de Navegacion*/
 .nav{
@@ -52,13 +44,27 @@ nav a{
 	color: #3b94ad;
 	text-transform: uppercase;
 	font-size: 0.8em;
+	position: relative;
+}
+nav a.actual:after{
+	content: " ";
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 7px solid #3b94ad;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -10px;
 }
 /*Formato de Contenidos*/
 h1{
 	padding:0.8em;
-	font-size: 2em;
+	font-size: 1.5em;
 	text-shadow:0px 0px 7px #444;
 	color: #FFF;
+	letter-spacing: 0.2em;
 }
 p{
 	padding: 1em;
@@ -72,16 +78,18 @@ h2,h3,h4{
 }
 /*Formato de Estructuras divs*/
 div.medio{
-	background-color: #DDD;
+	background-color: #;
 }
 div.final{
 	background-color: #EEE;
 }
-div.cuerpo{
+.cuerpo{
 	min-height: 200px;
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
-	outline: dashed 1px #333;
+}
+.voluntad{
+	background-color: #F4F13E;
 }
 .footer{
 	min-height: 200px;
@@ -98,7 +106,7 @@ table td{
 	position: fixed;
 	top: 0;
 	left: 0;
-	background-color: #DDD;
+	background-color: rgba(240,240,240,0.7);
 	width: 100%;
 	border-bottom: 1px solid #3b94ad;
 }

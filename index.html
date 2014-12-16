@@ -19,17 +19,7 @@
 <div class="fullcabecera"> 
 <header class="container_12">
 	<div  class="grid_6">
-		<h1>COMUNIDAD</h1>
-	</div>
-	<div id="registro" class="grid_6">
-
-		<form action="validar.php" method="post" class="ingreso">
-				<label >Usuario: </label>
-				<input class="form-group has-success"  type="text" name="usuario" /><br />
-				<label >Contraseña: </label>
-				<input  type="password" name="pass"><br />			
-				<input class="btn btn-primary" type="submit" value="ingresar" />
-		</form>
+		<h1>Comunidad</h1>
 	</div>
 </header>
 </div>
@@ -39,9 +29,9 @@
 		<ul class="grid_12">				
 			<li><a href="#" class="actual">INICIO</a></li>
 			<li><a href="#">DICCIONARIO</a></li>
-			<li><a href="#">SEÑAS ARGENTINAS</a></li>
 			<li><a href="#">Voluntariado</a></li>
 			<li><a href="#">Institucional</a></li>
+			<li><a href="#">Contacto</a></li>
 		</ul>
 	</nav>
 </div>
@@ -50,7 +40,7 @@
 			<p>Presentación de la organizacion</p>
 		</div>
 
-		<div class="grid_4 cuerpo">
+		<div class="grid_4 cuerpo voluntad">
 			<h2>Sumate</h2>
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -86,9 +76,20 @@
 		</div>
 	</div>
 	<div class="container_12 footer">
-		<footer class="grid_12">
+		<footer class="grid_6">
 			<h4>Comunidad</h4>
 		</footer>
+		<a class="ingresar" href="#">Ingresar</a>
+	<div id="registro" class="grid_2">
+
+		<form action="validar.php" method="post" class="ingreso">
+				<label >Usuario: </label>
+				<input class="form-group has-success"  type="text" name="usuario" /><br />
+				<label >Contraseña: </label>
+				<input  type="password" name="pass"><br />			
+				<input class="btn btn-primary" type="submit" value="ingresar" />
+		</form>
+	</div>
 	</div>
 </div>
 </body>
