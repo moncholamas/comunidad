@@ -15,11 +15,8 @@ $(document).ready(function(){
 	});
 	//script para mostrar mapa
 	$('.mostrar').click(function(){
-		var mostrar = $(this).attr('href');
-		$(mostrar).css('display','block');
 		var enlace  = $(this).attr('href');
-        $('html, body').animate({
-        scrollTop: $(enlace).offset().top
-        }, 1000);
+		$(enlace).toggleClass('visible');
+        $('html, body').animate({scrollTop: $(enlace).offset().top}, 1000);
 	});
 });
