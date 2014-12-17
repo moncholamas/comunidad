@@ -13,4 +13,13 @@ $(document).ready(function(){
 	$(window).scroll(function(){
 		stickyNav();
 	});
+	//script para mostrar mapa
+	$('.mostrar').click(function(){
+		var mostrar = $(this).attr('href');
+		$(mostrar).css('display','block');
+		var enlace  = $(this).attr('href');
+        $('html, body').animate({
+        scrollTop: $(enlace).offset().top
+        }, 1000);
+	});
 });
