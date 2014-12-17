@@ -66,10 +66,17 @@ nav a.actual:after{
 /*Formato de Contenidos*/
 h1{
 	padding:0.8em;
+	padding-bottom: 0;
 	font-size: 1.5em;
 	text-shadow:0px 0px 4px #AAA;
 	color: #666;
 	letter-spacing: 0.2em;
+}
+h6{
+	font-weight: normal;
+	font-size: 14px;
+	margin-bottom: 0.8em;
+	color: #666;
 }
 p{
 	padding: 1em;
@@ -77,9 +84,27 @@ p{
 }
 h2,h3,h4{
 	padding:0.5em;
-	background: #eee;
 	text-transform: lowercase;
 	font-size: 0.9em;
+	margin-left: 1em;
+}
+hr{
+	border-bottom: solid 1px #DDD;
+}
+img.ausente{
+	width: 150px;
+	height: 150px;
+	border: dashed 1px #666;
+	float: right;
+}
+/*Enlaces*/
+a{
+	color: #222;
+	text-decoration: none;
+	transition:all 0.3s;
+}
+a:hover{
+	color: #D31900;
 }
 /*Formato de Estructuras divs*/
 div.medio{
@@ -89,14 +114,14 @@ div.final{
 	background-color: #EEE;
 }
 .cuerpo{
-	min-height: 300px;
+	min-height: 200px;
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
 }
 .voluntad{
 	background-color: #;
 	box-shadow: 0px 0px 5px #99;
-	min-height: 500px;
+	min-height: 600px;
 	border-left: 1px solid #DDD;
 	margin-left: -1px;
 }
