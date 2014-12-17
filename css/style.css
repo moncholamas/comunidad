@@ -21,11 +21,29 @@ header{
 	position: relative;
 }
 /*Formularios*/
-form.ingreso{
-	text-align: right;
+form{
+	text-align: center;
+	padding: 0.5em; 
 }
-form input, form label{
-	display: inline-block; 
+form input, label,textarea{
+	display: block; 
+	width: 202px;
+	max-width: 202px;
+	margin: 0;
+	padding: 0.2em;
+}
+input[type="submit"],input[type="reset"]{
+	display: inline-block;
+	width: 60px;
+	margin: 0;
+	background-color: #333;
+	color: #FFF;
+	border: none;
+}
+textarea{
+	min-height: 60px;
+	height: auto;
+	overflow: 
 }
 /*Barra de Navegacion*/
 .nav{

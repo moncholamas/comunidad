@@ -46,8 +46,8 @@ document.getElementById('mapa').innerHTML = '<iframe src="https://www.google.com
 			<p>Más Información en <a href="#">Institucional</a>.</p>
 			<hr/>
 			<div class="grid_9 mapa" id="mapa">
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14242.221161799776!2d-65.22601412273667!3d-26.82228523802042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94223792d6c56903%3A0xf88d5b92b5c56527!2sSan+Miguel+de+Tucum%C3%A1n%2C+Tucum%C3%A1n!5e0!3m2!1ses!2sar!4v1418789521846" width="600" height="450" frameborder="0" style="border:0"></iframe>
-		</div>
+				<h2>Mapa</h2>
+			</div>
 			<div class="container_9 final">
 				<div class="grid_5 alpha cuerpo">
 					<h2>Áreas de Trabajo</h2>
@@ -84,7 +84,18 @@ document.getElementById('mapa').innerHTML = '<iframe src="https://www.google.com
 				<h3>Contacto</h3>
 				<p> <img src="img/phone.png"> tel: 0381 - 4311410</p>
 				<a href="#mapa" onclick="javascript:loadMapa()" class="mostrar"><p> <img src="img/location.png"> ¿Cómo llegar?</p></a>
+				<a href="#"><p> <img src="img/facebook2.png"> Visitanos en Facebook</p></a>
 				<a href="#"><p> <img src="img/mail.png"> Déjanos un mensaje</p></a>
+				<form action="contacto.php" method="post">
+					<label for="nombre">Nombre: </label>
+					<input type="text" name="nombre" id="nombre" placeholder="Juan Pérez"/>
+					<label for="nombre">Correo: </label>
+					<input type="text" name="nombre" id="nombre" placeholder="nombre@ejemplo.com"/>
+					<label for="mensaje">Mensaje:</label>
+					<textarea name="mensaje" id="mensaje"></textarea>
+					<input type ="submit" value="enviar"/>
+					<input type ="reset" value="borrar"/>
+				</form>
 			</div>
 		</div><!--Fin Segunda Columna-->
 	</div><!--Fin cuerpo-->
@@ -93,7 +104,6 @@ document.getElementById('mapa').innerHTML = '<iframe src="https://www.google.com
 			<h4>Comunidad</h4>
 		<a class="ingresar" href="#">Ingresar</a>
 		<div id="registro" class="grid_6 omega">
-
 			<form action="validar.php" method="post" class="ingreso">
 					<label >Usuario: </label>
 					<input class="form-group has-success"  type="text" name="usuario" /><br />
